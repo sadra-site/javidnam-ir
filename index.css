@@ -16,8 +16,8 @@ header{
     padding: 20px 5px;
     text-align: center;
     line-height: 2;
-    border-bottom: 3px solid rgb(250, 250, 250);
-    box-shadow: 0 10px 25px rgb(175, 175, 249);
+    border-bottom: 3px solid rgb(240, 232, 232);
+    box-shadow: 0 10px 25px rgb(246, 246, 248);
     display: flex;
     align-items: center;
 }
