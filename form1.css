@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'tahoma';
+}
+body{
+    background-color:rgb(78, 78, 88) ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    background-color:#060112 ;
+    padding: 20px 5px;
+    text-align: center;
+    line-height: 2;
+    border-bottom: 3px solid rgb(250, 250, 250);
+    box-shadow: 0 10px 25px rgb(175, 175, 249);
+    display: flex;
+    align-items: center;
+}
+header .logo{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    text-shadow: 0 0 15px rgb(199, 199, 234);
+}
+.main-part .aside ul{
+    list-style: none;
+}
+.main-part .aside ul li{
+    padding: 7px 15px;
+    line-height: 3;
+    background-color: rgb(93, 93, 103);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    transition: all 0.4s;
+    text-shadow: 0 0 white;
+}
+.main-part .aside ul li:hover{
+    background-color: rgba(94, 108, 169, 0.264);
+    transform: translateX(-7px);
+}
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.list li{
+    background: #5f7ec7;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
