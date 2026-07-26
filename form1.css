@@ -59,3 +59,22 @@ header .logo{
     padding: 8px 15px;
     border-radius: 8px;
 }
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.back-to-top:hover {
+    background: #444;
+}
