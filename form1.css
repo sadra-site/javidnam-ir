@@ -7,9 +7,6 @@
 body{
     background-color:rgb(78, 78, 88) ;
     color: white;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 header{
   
@@ -25,7 +22,7 @@ header{
     align-items: center;
     background-color: rgba(248, 247, 247, 0.139);
     padding: 25px 15px;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(25px);
     z-index: 100;
 }
 header .logo{
