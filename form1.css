@@ -12,14 +12,21 @@ body{
     min-height: 100vh;
 }
 header{
-    background-color:#060112 ;
+  
     padding: 20px 5px;
     text-align: center;
     line-height: 2;
     border-bottom: 3px solid rgb(250, 250, 250);
     box-shadow: 0 10px 25px rgb(175, 175, 249);
+    position: sticky;
+    top: 0;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
+    background-color: rgba(248, 247, 247, 0.139);
+    padding: 25px 15px;
+    backdrop-filter: blur(15px);
+    z-index: 100;
 }
 header .logo{
     font-size: 1.5rem;
